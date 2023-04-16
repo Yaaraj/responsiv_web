@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+}
+
+
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    font-size: larger
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+#main {
+    background-image: url(IMAGES/background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    z-index: 0;
+}
+
+#left {
+    color: rgb(255, 222, 245);
+    font-size: large;
+    padding: 0 50px;
+}
+
+#left a {
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    color: rgb(255, 222, 245);
+    text-align: center;
+    line-height: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+    border: none;
+}
+.hidden {
+    display: none;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    .hidden {
+        display: block;
+    }
+
+    .exist {
+        display: none;
+    }
+}
+
+.fa-solid.fa-phone {
+    font-size: large;
+}
+
+#right {
+    border: 1px solid black;
+    background-color: rgba(245, 245, 220, 0.329);
+    color: rgb(255, 222, 245);
+    padding: 30px;
+}
+
+#right input,
+label,
+button {
+    display: block;
+    margin: 0px auto;
+    color: rgb(255, 222, 245);
+
+}
+
+#right input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#right label {
+    width: 100%;
+    height: 20px;
+}
+
+#right button {
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    font-weight: bolder;
+    margin-top: 30px;
+    border: none;
+}
+
+.col-4 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 5em;
+}
+
+#first {
+    padding: 0 100px;
+}
+
+#second {
+    padding: 0 100px;
+}
+
+#third {
+    padding: 0 100px;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.footer p {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer hr {
+    width: 10%;
+}
+
+.footer p.short {
+    margin: 0 auto;
+}
+
+.exist {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.exist ul {
+    list-style-type: none;
+}
+
+.exist li {
+    display: inline-block;
+}
+
+.exist a {
+    text-decoration: none;
+    color: rgb(83, 80, 80);
+}
